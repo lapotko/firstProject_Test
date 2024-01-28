@@ -398,7 +398,145 @@ footer {
         margin-bottom: 25px;
     }
 }
+@media(max-width: 640px) {
+    .container {
+        padding: 0 16px;
+    }
+    .content-box{
+        align-items: center;
+    }
+    .new-automation {
+        height: 100%;
+        padding: 0;
+    }
 
+    .new-automation__info {
+        background-image: none;
+        margin-top: 28px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .new-automation__button {
+        font-size: 12px;
+        margin-top: 32px;
+        border-radius: 20px;
+    }
+
+    .new-automation__info h1 {
+        font-size: 32px;
+        font-style: normal;
+        letter-spacing: 1.28px;
+        line-height: normal;
+    }
+
+    .new-automation__text {
+        padding-top: 12px;
+    }
+
+    .what-we-do {
+        margin-top: 48px;
+    }
+
+    .group-heading {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .our-project {
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .our-project>p {
+        width: 100%;
+        margin: 32px 0 82px;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+
+    .pic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic__bottom {
+        display: block;
+        margin: 16px 0 64px;
+    }
+
+    .pic__bottom>:first-child {
+        margin: 0 0 16px;
+    }
+
+    .pic__top>h3 {
+        right: 16px;
+        top: 16px;
+        color: #FFF;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .pic__bottom-item>p {
+        color: var(--white, #FFF);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 16px;
+        left: 16px;
+    }
+
+    footer {
+        padding: 16px 16px 32px;
+    }
+
+    .intrested-to-work {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .intrested-to-work__info {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .intrested-to-work__info>h3 {
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .block-button {
+        width: 80%;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .intrested-to-work__contacts>ol {
+        margin-top: 32px;
+    }
+
+    .intrested-to-work__contacts>ol li {
+        margin-bottom: 18px;
+    }
+
+    .intrested-to-work_legal-notes {
+        text-align: center;
+        margin-top: 32px;
+        padding-bottom: 32px;
+    }
+}
 @media(max-width: 375px) {
     .container {
         padding: 0 16px;
