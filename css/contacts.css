@@ -363,6 +363,79 @@ footer {
     margin-bottom: 25px;
   }
 }
+@media (max-width: 640px) {
+  .container {
+    max-width: 375px;
+    padding: 0 16px;
+  }
+  .contacts__form {
+    padding: 0 17px;
+  }
+  .contacts__form form {
+    max-width: 300px;
+    padding: 16px 16px;
+  }
+  .contacts__form form h4 {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+  }
+  .contacts__form form p {
+    font-size: 14px;
+    letter-spacing: 0.64px;
+  }
+  .contacts__form form input[type=text],
+  .contacts__form form input[type=email] {
+    min-width: 270px;
+    min-height: 46px;
+  }
+  .contacts__form form textarea {
+    min-width: 270px;
+    min-height: 92px;
+    -moz-columns: 20;
+         columns: 20;
+  }
+  .contacts__form form input[type=submit] {
+    min-width: 270px;
+    min-height: 46.26px;
+  }
+  footer {
+    padding: 0;
+  }
+  footer .footer-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .intrested-to-work {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .intrested-to-work .block-button {
+    justify-content: center;
+  }
+  footer .intrested-to-work__info {
+    width: inherit;
+    text-align: center;
+  }
+  footer .intrested-to-work__info h3 {
+    width: 70%;
+    margin: 18px auto 0;
+    color: var(--white, #fff);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  footer .intrested-to-work__info p {
+    color: var(--white, #fff);
+    text-align: center;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+  }
+  footer .block-button {
+    margin-top: 32px;
+  }
+}
 @media (max-width: 375px) {
   .container {
     max-width: 375px;
